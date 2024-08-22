@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.insta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    background-color: burlywood;
+    gap: 10px;
+    height: 150px;
+}
+.insta i{
+    margin-top: 25px;
+}
+.insta :hover{
+    color:palevioletred;
+    cursor: pointer;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    height: calc(100% - 150px);
+    width: 100%;
+}
+.insta i{
+    margin-top: 29px;
+}
+.cont{
+   height: 450px;
+   width: 300px;
+   background-color: burlywood;
+   border-radius: 10px;
+   overflow: hidden;
+    position: relative;
+}
+
+.cont img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.cont i{
+    font-size: 60px;
+    color: aliceblue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%) scale(0); 
+    opacity: 0.8; 
+    transition: all ease 0.4s; 
+}
+
+section{
+    height: 90%;
+    width: 100%;
+    background-color: rgb(44, 63, 63);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cont2{
+    height: 450px;
+   width: 300px;
+   background-color: #f7dada;
+   border-radius: 10px;
+   overflow: hidden;
+}
+.stories{
+    height: 70px;
+    width: 100%;
+    border-bottom: 2px solid rgb(237, 241, 241);    
+}
+.story{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 2px solid rgb(161, 60, 77);
+    margin: 15px;
+}
